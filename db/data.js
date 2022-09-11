@@ -25,6 +25,14 @@ const data = [
     price: 10,
     image: "/pastel_1.png",
   },
+  {
+    id: "4",
+    name: "Pastel 4",
+    description: "Pastel 4",
+    category: "other",
+    price: 10,
+    image: "/pastel_1.png",
+  },
 ];
 
 export default data;
