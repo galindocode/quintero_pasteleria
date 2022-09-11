@@ -13,8 +13,8 @@ export default function HomeApp() {
     <>
       <div className=" h-screen">
         <div className="grid grid-cols-1 md:grid-cols-4 px-8 justify-center items-center gap-6 py-4">
-          {pasteles.map((pastel) => (
-            <Card pastel={pastel} />
+          {pasteles.map((pastel, index) => (
+            <Card pastel={pastel} key={index} />
           ))}
         </div>
       </div>
