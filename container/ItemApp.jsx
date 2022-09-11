@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { ImageFull } from "../components/Item/ImageFull";
+import { ImageFull } from "@components/Item/ImageFull";
 
 export const ItemApp = ({ pastel }) => {
   const [showFull, setShowFull] = React.useState(false);

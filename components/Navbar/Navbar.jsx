@@ -4,7 +4,7 @@ import Image from "next/image";
 import { faBars } from "@fortawesome/pro-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import { MobileMenu } from "./MobileMenu";
+import { MobileMenu } from "@components/Navbar/MobileMenu";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
