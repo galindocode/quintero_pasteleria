@@ -12,7 +12,7 @@ export default function HomeApp() {
   return (
     <>
       <div className=" h-screen">
-        <div className="grid grid-cols-1 md:grid-cols-4 px-8 justify-center items-center gap-6 py-4">
+        <div className="flex flex-col md:grid md:grid-cols-4 md:px-8 justify-center  items-center gap-6 py-4">
           {pasteles.map((pastel, index) => (
             <Card pastel={pastel} key={index} />
           ))}
